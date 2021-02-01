@@ -1,0 +1,77 @@
+{
+  "name": "now-ui-dashboard-pro-react",
+  "version": "1.4.0",
+  "private": true,
+  "homepage": "https://demos.creative-tim.com/now-ui-dashboard-pro-react/#/",
+  "dependencies": {
+    "@grapecity/spread-excelio": "^13.2.3",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "bootstrap": "4.5.0",
+    "chart.js": "2.9.3",
+    "classnames": "2.2.6",
+    "file-saver": "^2.0.2",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8",
+    "match-sorter": "4.1.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "moment": "2.26.0",
+    "node-sass": "^4.14.1",
+    "nouislider": "14.5.0",
+    "npm-run-all": "4.1.5",
+    "perfect-scrollbar": "1.5.0",
+    "react": "16.13.1",
+    "react-big-calendar": "0.25.0",
+    "react-bootstrap-sweetalert": "5.1.11",
+    "react-bootstrap-switch": "15.5.3",
+    "react-bootstrap-wizard": "0.0.7",
+    "react-chartjs-2": "2.9.0",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.13.1",
+    "react-excel-renderer": "^1.1.0",
+    "react-google-maps": "9.4.5",
+    "react-icons": "^3.11.0",
+    "react-jvectormap": "0.0.16",
+    "react-notification-alert": "0.0.12",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1",
+    "react-select": "3.1.0",
+    "react-table": "7.2.0",
+    "react-tagsinput": "3.19.0",
+    "reactstrap": "8.4.1",
+    "read-excel-file": "^4.0.7",
+    "xlsx": "^0.16.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "compile-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.css",
+    "minify-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.css --source-map true",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "3.39.6",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "16.9.36",
+    "ajv": "6.12.2",
+    "typescript": "3.9.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
